@@ -34,3 +34,32 @@ Este notebook utiliza o dataset "caso_full", com dados diários da pandemia de C
 | **new_deaths**                           | Número de novos óbitos desde o último dia registrado.                                                                                                              |
 
 
+### Metodologia de Coleta
+
+Os dados foram coletados manualmente a partir dos boletins epidemiológicos das Secretarias Estaduais de Saúde. Quando um boletim não era divulgado, o dado anterior era replicado, sendo indicado pela coluna `is_repeated`. Esse processo contínuo foi conduzido por voluntários, monitorando casos, mortes, população e outras métricas.
+
+
+### Diferenças entre Contagens Estaduais e Municipais
+
+As divergências surgem por dois fatores:  
+
+- **Divulgação centralizada por estado**: Algumas Secretarias, como a de São Paulo, pararam de publicar dados por município.  
+- **Erros de divulgação**: Informações incorretas pelas Secretarias podem causar discrepâncias.
+
+- ### Comparação com Dados do Ministério da Saúde
+
+Os dados do Brasil.IO podem ser mais recentes, pois a coleta é feita logo após a publicação dos boletins estaduais, enquanto o Ministério da Saúde pode receber informações antes de torná-las públicas.
+
+### Limitações na Cobertura de Municípios
+
+Os registros municipais podem não estar completos para todas as datas, iniciando apenas a partir do primeiro caso confirmado.
+
+### Possíveis Análises
+
+- Evolução temporal da COVID-19 por município  
+- Taxa de mortalidade  
+- Distribuição espacial dos casos  
+- Casos por 100 mil habitantes  
+- Comparação entre estados  
+- Tendências de novos casos e mortes  
+- Impacto populacional  
